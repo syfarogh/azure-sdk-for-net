@@ -126,6 +126,11 @@ namespace Microsoft.Azure.Management.Network
         IExpressRouteCircuitConnectionsOperations ExpressRouteCircuitConnections { get; }
 
         /// <summary>
+        /// Gets the IPeerExpressRouteCircuitConnectionsOperations.
+        /// </summary>
+        IPeerExpressRouteCircuitConnectionsOperations PeerExpressRouteCircuitConnections { get; }
+
+        /// <summary>
         /// Gets the IExpressRouteCircuitsOperations.
         /// </summary>
         IExpressRouteCircuitsOperations ExpressRouteCircuits { get; }
